@@ -15,6 +15,12 @@ and open the template in the editor.
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     font-family: sans-serif;
+     
+}
+
+html{
+    background-image: url(../images/bats.gif);
+    text-align: center;
 }
 
 img{
@@ -25,16 +31,27 @@ img{
         background-color: blue;
     }
 }
-title {
-     
+body {
+   width: 800px;  
+   text-align: left;
+   box-shadow: 10px 10px 5px black;
+   border-style: solid;
+   border-color: black;
+   background-color: white;
 }
 
+header{
+    border-style: solid;
+    border-color: black;
+    background: linear-gradient(45deg, white, orange 75%, black);
+}
+
+
 h1 {
-    color: orange;
     font-size: 300%;
-    font-style: oblique;
-    text-shadow: 2px 2px #ff0000;
     text-indent: 25px;
+    margin-top: 15px;
+    margin-bottom: 0px;
 }
 
 h2::first-letter { 
@@ -52,7 +69,7 @@ h3 {
 h4 {
     font-size:125%;
     text-indent: 25px;
-    
+    margin-top: 0px;
 }
 
 h5{
@@ -70,6 +87,7 @@ li{
 footer{
     font-size: 75%;
     text-align: center;
+    background: linear-gradient(45deg, black, orange 75%, white);
 }
 
 a{
