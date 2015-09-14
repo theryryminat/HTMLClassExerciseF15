@@ -95,6 +95,28 @@ a{
     font-weight: bold;
 }
 
+div{
+    column-count: 2;
+    -webkit-column-span: all;
+    column-span: all;
+}
+
+section{
+   -webkit-column-count: 1;
+   -webkit-column-width: 160px;
+   background-color: white;
+   float: left;
+   -webkit-column-span: all;
+   column-span: all;
+}
+
+article{
+    -webkit-column-count: 1;
+    background-color: white;
+    -webkit-column-span: all;
+    column-span: all;
+}
+
 a:hover { 
     color: green;
 }
