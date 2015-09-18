@@ -18,6 +18,13 @@ and open the template in the editor.
      
 }
 
+table td:last-child{
+    background-color:tan;
+    border-collapse:collapse;
+    
+    width: 3em;
+}
+
 html{
     background-image: url(../images/bats.gif);
 }
@@ -30,6 +37,10 @@ img{
         background-color: blue;
     }
 }*/
+
+a{
+    color:black;
+}
 
 body {
    width: 800px;  
@@ -114,9 +125,6 @@ li{
     outline: black;
 }
 
-section li{
-    
-}
 nav a:hover{
     background-color:gray;
     color: black;
@@ -135,6 +143,9 @@ footer{
     background: linear-gradient(45deg, black, orange 75%, white);
     clear: both;
 }
+
+
+
 
 section a {
     display: block;
@@ -168,14 +179,73 @@ section a{
     display: block;
     background-color: orange;
 }
-article{
+#maincontent{
     background-color: white;
     -webkit-column-span: all;
     column-span: all;
-    float: right;
-    width: 620px;
+    float: left;
+    width: 400px;
     margin:0px;
 }
+
+#rightbar{
+    background-color: #F5DEB3;;
+    -webkit-column-span: all;
+    column-span: all;
+    float: right;
+    width: 180px;
+    box-sizing: border-box;
+    margin:0px;
+}
+
+#rightbar img {
+  float: left;
+  width: 50px;
+}
+
+
+
+#rightbar a{
+    float:left;
+    clear: both;
+    text-align: center;
+    text-decoration: underline;
+    background: none;
+    border-style: none;
+    font-size: .8em;
+    padding-top: .5em;
+    padding-left: .5em;
+    padding-bottom: .2em;
+}
+
+table thead th:first-child {
+  width: 40%;
+  text-align: left;
+}
+
+
+table caption {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+table td:first-child{
+    vertical-align: top;
+    font-weight: bold;
+    border-collapse: collapse;
+    
+}
+table td{
+    width: 12em;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+
+
 
 
 
