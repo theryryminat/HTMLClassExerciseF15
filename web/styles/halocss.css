@@ -20,7 +20,6 @@ and open the template in the editor.
 
 html{
     background-image: url(../images/bats.gif);
-    text-align: center;
 }
 
 img{
@@ -38,7 +37,16 @@ body {
    border-style: solid;
    border-color: black;
    background-color: white;
+   margin: 0 auto;
 }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 header{
     border-style: solid;
@@ -46,6 +54,16 @@ header{
     background: linear-gradient(45deg, white, orange 75%, black);
 }
 
+ul.horizontal{
+margin:0;
+padding:0;
+}
+
+ul.horizontal li{
+display:block;
+float:left;
+padding:0 10px;
+}
 
 h1 {
     font-size: 300%;
@@ -90,9 +108,11 @@ footer{
     background: linear-gradient(45deg, black, orange 75%, white);
 }
 
-a{
-    color: orange;
+a {
+    display: block;
     font-weight: bold;
+    width: 120px;
+    text-align: center;
 }
 
 div{
